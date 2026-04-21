@@ -1,0 +1,10 @@
+{
+  "flight_id": 1,
+  "flight_number": "UA101",
+  "airline": "United",
+  "route": "SF -> NY",
+  "departure_time": "2025-11-15 08:00",
+  "available_seats": 84,
+  "price_per_seat": 250.0,
+  "availability_status": "Available"
+}

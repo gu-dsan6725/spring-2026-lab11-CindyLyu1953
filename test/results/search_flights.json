@@ -1,0 +1,49 @@
+{
+  "query": {
+    "departure_city": "SF",
+    "arrival_city": "NY",
+    "departure_date": "2025-11-15"
+  },
+  "flights": [
+    {
+      "id": 3,
+      "flight_number": "DL303",
+      "airline": "Delta",
+      "departure_city": "SF",
+      "arrival_city": "NY",
+      "departure_time": "2025-11-15 14:30",
+      "arrival_time": "2025-11-15 23:00",
+      "duration_minutes": 330,
+      "price": 220.0,
+      "available_seats": 120,
+      "aircraft_type": "B757"
+    },
+    {
+      "id": 1,
+      "flight_number": "UA101",
+      "airline": "United",
+      "departure_city": "SF",
+      "arrival_city": "NY",
+      "departure_time": "2025-11-15 08:00",
+      "arrival_time": "2025-11-15 16:30",
+      "duration_minutes": 330,
+      "price": 250.0,
+      "available_seats": 85,
+      "aircraft_type": "B737"
+    },
+    {
+      "id": 2,
+      "flight_number": "AA202",
+      "airline": "American",
+      "departure_city": "SF",
+      "arrival_city": "NY",
+      "departure_time": "2025-11-15 10:15",
+      "arrival_time": "2025-11-15 18:45",
+      "duration_minutes": 330,
+      "price": 280.0,
+      "available_seats": 45,
+      "aircraft_type": "A320"
+    }
+  ],
+  "count": 3
+}

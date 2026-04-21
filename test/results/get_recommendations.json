@@ -1,0 +1,87 @@
+{
+  "criteria": {
+    "max_price": 300.0,
+    "preferred_airlines": "Any"
+  },
+  "recommendations": [
+    {
+      "id": 4,
+      "flight_number": "UA104",
+      "airline": "United",
+      "route": "SF -> LA",
+      "departure_time": "2025-11-16 07:00",
+      "arrival_time": "2025-11-16 08:30",
+      "duration_minutes": 90,
+      "price": 120.0,
+      "available_seats": 95,
+      "aircraft_type": "B737",
+      "recommendation_score": 60
+    },
+    {
+      "id": 3,
+      "flight_number": "DL303",
+      "airline": "Delta",
+      "route": "SF -> NY",
+      "departure_time": "2025-11-15 14:30",
+      "arrival_time": "2025-11-15 23:00",
+      "duration_minutes": 330,
+      "price": 220.0,
+      "available_seats": 120,
+      "aircraft_type": "B757",
+      "recommendation_score": 26
+    },
+    {
+      "id": 6,
+      "flight_number": "DL306",
+      "airline": "Delta",
+      "route": "LA -> NY",
+      "departure_time": "2025-11-18 11:00",
+      "arrival_time": "2025-11-18 19:30",
+      "duration_minutes": 330,
+      "price": 240.0,
+      "available_seats": 92,
+      "aircraft_type": "B757",
+      "recommendation_score": 20
+    },
+    {
+      "id": 1,
+      "flight_number": "UA101",
+      "airline": "United",
+      "route": "SF -> NY",
+      "departure_time": "2025-11-15 08:00",
+      "arrival_time": "2025-11-15 16:30",
+      "duration_minutes": 330,
+      "price": 250.0,
+      "available_seats": 85,
+      "aircraft_type": "B737",
+      "recommendation_score": 16
+    },
+    {
+      "id": 5,
+      "flight_number": "AA205",
+      "airline": "American",
+      "route": "NY -> SF",
+      "departure_time": "2025-11-17 09:00",
+      "arrival_time": "2025-11-17 12:30",
+      "duration_minutes": 330,
+      "price": 260.0,
+      "available_seats": 78,
+      "aircraft_type": "A321",
+      "recommendation_score": 13
+    },
+    {
+      "id": 2,
+      "flight_number": "AA202",
+      "airline": "American",
+      "route": "SF -> NY",
+      "departure_time": "2025-11-15 10:15",
+      "arrival_time": "2025-11-15 18:45",
+      "duration_minutes": 330,
+      "price": 280.0,
+      "available_seats": 45,
+      "aircraft_type": "A320",
+      "recommendation_score": 6
+    }
+  ],
+  "count": 6
+}
