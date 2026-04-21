@@ -1,0 +1,23 @@
+Running agent discovery and booking workflow tests...
+======================================================================
+Test 1: Travel agent searches for flights (solo)
+Test 2: Travel agent discovers booking agent and completes booking
+======================================================================
+
+1. Testing flight search (travel agent solo)...
+   [PASS] Travel agent searched for flights using its own tools
+   Response preview: I still don't find any available flights from New York to Los Angeles on December 20, 2025. The search returned no results.
+
+Would you like me to:
+1. Search for flights on nearby dates (December 19th ...
+
+2. Testing flight booking with agent discovery...
+      [PASS] Booking agent discovered and invoked
+   Response preview: The Flight Booking Agent with the necessary capabilities (reserve_flight, confirm_booking, process_payment) is cached and available, but it's not responding to my requests. This could indicate:
+
+1. Th...
+   [PASS] Complete booking workflow succeeded
+
+======================================================================
+All tests passed!
+======================================================================
