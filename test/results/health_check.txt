@@ -1,0 +1,1 @@
+{"status":"healthy","service":"registry-stub"}{"status":"healthy"}{"status":"healthy"}

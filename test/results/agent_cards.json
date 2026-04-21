@@ -1,0 +1,128 @@
+Checking Agent Cards...
+================================
+
+Travel Assistant Agent Card:
+--------------------------------
+{
+  "capabilities": {
+    "streaming": true
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "description": "Flight search and trip planning agent with dynamic agent discovery",
+  "name": "Travel Assistant Agent",
+  "preferredTransport": "JSONRPC",
+  "protocolVersion": "0.3.0",
+  "skills": [
+    {
+      "description": "Search for available flights between cities on a specific date.",
+      "id": "search_flights",
+      "name": "search_flights",
+      "tags": []
+    },
+    {
+      "description": "Get pricing and seat availability for a specific flight.",
+      "id": "check_prices",
+      "name": "check_prices",
+      "tags": []
+    },
+    {
+      "description": "Get flight recommendations based on customer preferences.",
+      "id": "get_recommendations",
+      "name": "get_recommendations",
+      "tags": []
+    },
+    {
+      "description": "Create and save a trip planning record.",
+      "id": "create_trip_plan",
+      "name": "create_trip_plan",
+      "tags": []
+    },
+    {
+      "description": "Discover remote agents from the registry with natural language query.\n\nCache them for visibility and invocation for later tool calls from LLM.",
+      "id": "discover_remote_agents",
+      "name": "discover_remote_agents",
+      "tags": []
+    },
+    {
+      "description": "View all cached remote agents available for invocation.",
+      "id": "view_cached_remote_agents",
+      "name": "view_cached_remote_agents",
+      "tags": []
+    },
+    {
+      "description": "Invoke a cached remote agent by ID with a natural language message.",
+      "id": "invoke_remote_agent",
+      "name": "invoke_remote_agent",
+      "tags": []
+    }
+  ],
+  "url": "http://127.0.0.1:10001/",
+  "version": "0.0.1"
+}
+[PASS] Travel Assistant agent card retrieved
+   Saved to: /Users/lyukexin/Desktop/DSAN6725/spring-2026-lab11-CindyLyu1953/test/travel_assistant_agent_card.json
+
+Flight Booking Agent Card:
+--------------------------------
+{
+  "capabilities": {
+    "streaming": true
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "description": "Flight booking and reservation management agent",
+  "name": "Flight Booking Agent",
+  "preferredTransport": "JSONRPC",
+  "protocolVersion": "0.3.0",
+  "skills": [
+    {
+      "description": "Check seat availability for a specific flight.",
+      "id": "check_availability",
+      "name": "check_availability",
+      "tags": []
+    },
+    {
+      "description": "Reserve seats on a flight for passengers.",
+      "id": "reserve_flight",
+      "name": "reserve_flight",
+      "tags": []
+    },
+    {
+      "description": "Confirm and finalize a flight booking.",
+      "id": "confirm_booking",
+      "name": "confirm_booking",
+      "tags": []
+    },
+    {
+      "description": "Process payment for a booking (simulated).",
+      "id": "process_payment",
+      "name": "process_payment",
+      "tags": []
+    },
+    {
+      "description": "Update, view, or cancel existing reservations.",
+      "id": "manage_reservation",
+      "name": "manage_reservation",
+      "tags": []
+    }
+  ],
+  "url": "http://127.0.0.1:10002/",
+  "version": "0.0.1"
+}
+[PASS] Flight Booking agent card retrieved
+   Saved to: /Users/lyukexin/Desktop/DSAN6725/spring-2026-lab11-CindyLyu1953/test/flight_booking_agent_card.json
+
+================================
+Summary:
+[PASS] Travel Assistant agent card saved
+[PASS] Flight Booking agent card saved
+================================
